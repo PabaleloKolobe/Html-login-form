@@ -1,0 +1,192 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:"Roboto", sans-serif;
+    background:burlywood;
+}
+
+.login-form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:90%;
+    max-width:450px;
+    background: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 5px 10px rgba (0,0,0,0.1);
+
+
+}
+
+.login-form .form-title{
+    font-family: "Montserrat" , sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: green;
+
+
+
+}
+
+.login-btn{
+    color:blue;
+}
+
+.login-form  .form-input{
+    margin:10px 0px;
+
+}
+
+.login-form .form-input label, .login-form .captcha label{
+    display: block;
+    font-size: 15px;
+    color:#111;
+    margin-bottom:5px;
+}
+.login-form .form-input input{
+    width:100%;
+    padding:10px;
+    border: 1px solid #888;
+    font-size:15px;
+    
+}
+
+.login-form .captcha{
+    margin: 15px 0px;
+
+}
+
+.login-form .captcha .preview{
+    color: #555;
+    width:100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    border: 1px dashed #888;
+    font-family: "monospace";
+}
+
+.login-form .captcha .preview span{
+    display:inline-block;
+    user-select: none;
+}
+
+.login-form .captcha .captcha-form{
+    display:flex;
+    
+}
+
+.login-form .captcha .captcha-form input {
+    width:100%;
+    padding:8px;
+    border:1px solid #888;
+
+}
+
+.login-form .captcha .captcha-form .captcha-refresh{
+    width:40px ;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+}
+
+.login-form #login-btn {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size:15px;
+    text-transform: uppercase;
+    background: green;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+
+.form-input .password-toggle .password{
+    width:40px ;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+    
+
+}
+
+
+
+.form-input .password-toggle.active i.fa-eye{
+    display: none;
+
+}
+.form-input .password-toggle.active i.fa-slash{
+    display: inline;
+
+}
+.form-input .password-toggle i.fa-slash{
+    display: none;
+
+}
+
+.form-input .password-policies{
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 0px;
+    height: 0px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    overflow: hidden;
+    transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.form-input .password-policies.active{
+    opacity: 1;
+    padding: 10px;
+    height: 180px;
+}
+
+.form-input .password-policies > div {
+    margin: 15px 10px;
+    font-weight: 600;
+    color: red;
+}
+
+.form-input .password-policies > div.active{
+    color: green;
+}
+
+
+
+/*confirm*/
+
+
+
+
+
+
+
+
+
+
+

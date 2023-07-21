@@ -1,0 +1,88 @@
+
+
+    
+<link rel="stylesheet" href="login.css">
+<script src="functionss.js" defer></script>
+<script src="passwordscr.js" defer></script>
+<script src="https://kit.fontawesome.com/527e856bc4.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script> 
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>
+<script src="mail.js" defer></script> 
+
+
+    
+
+
+
+<div class = "login-form">
+    
+    
+
+    <div class="form-title">
+       Register
+
+    </div>
+    <div class="form-input">
+        <label for = "username">Username</label>
+        <input type ="text" id = "username" placeholder=" enter username" name="username">
+    </div>
+
+    <div class="form-input">
+        <label for = "password">Password</label>
+        <input type ="password" id = "password" placeholder="enter password" name="password" title=" Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"/>
+        <div class="password-toggle">
+            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-eye-slash"></i>
+        </div>
+
+        <div class="password-policies">
+            <div class="policy-length">
+                8 Characters
+            </div>
+            <div class="policy-number">
+                Contains numbers
+            </div>
+            <div class="policy-uppercase">
+                Contains uppercase
+            </div>
+            <div class="policy-special">
+                Contains special characters
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    
+    
+
+    <div class="captcha">
+        <label for = "captcha-input">
+            Enter captcha
+        </label>
+
+        <div class="preview"></div>
+        <div class="captcha-form">
+            <input type = "text" id="captcha-form" placeholder="Enter captcha" title="must match above captcha">
+            <button class = "captcha-refresh">
+                <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="form-input">
+        <button id = "login-btn" type="submit">
+            Register
+        </button>
+    </div>
+
+
+
+
+</div>
+
+
+
+
